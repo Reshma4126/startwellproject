@@ -3,14 +3,54 @@ body{
     justify-content: center;  
     align-items: center;  
     height: 100vh;
+    background-color: blueviolet;
 }
 .credentials{
-    border-style: solid;
+    border-style: none;
+    border-radius: 15%;
+    box-shadow: 10px 10px 10px rgb(147, 77, 213);
     display: flex;
     flex-direction: column;
-    background-color: lightblue;
+    background-color: rgb(214, 184, 238);
     justify-content: center;
     align-items: center;
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
+}
+input{
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgb(174, 150, 195);
+    height: 30px;
+    width: 200px;
+}
+
+p{
+    font-family: Saira,sans-serif;
+    font-weight: 400;
+}
+
+.login_heading{
+    font-family:Saira,sans-serif ;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0;
+}
+.signup{
+    display: flex;
+    margin-top: 30px;
+}
+.signup p{
+    margin: 0;
+}
+.signup button{
+    background-color: blueviolet;
+    border-style: none;
+    border-radius: 7px;
+    color: white;
+    margin-top: 0;
+    padding: 5px 7px;
+    margin-left: 20px;
+    font-size: 15px;
+    box-shadow: 3px 3px 3px rgb(180, 157, 201);
 }
